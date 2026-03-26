@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Akmal Zulkepli | Software Developer</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+     <nav>
+        <h1>AKMAL ZULKEPLI</h1>
+        <ul class="nav">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <button class="ham-menu" id="ham-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+     </nav>
+
+
+    <!-- Hero Section -->
+     <section class="hero" id="about">
+        <img
+          src="assets/images/akmal.jpg"
+          alt="akmal-zulkepli"
+          loading="lazy"
+          class="hero-img">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                A fresh graduate of Bachelor of Computer Science (Software Development) with Honours at Universiti Teknikal Malaysia Melaka (UTeM) 
+                with a strong foundation in software development and problem solving. Experienced in web application and mobile development.
+            </p>
+        </div>
+     </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Skills</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img
+                    src="assets/icons/skills/icons8-html5.svg"
+                    alt="HTML5"
+                    loading="lazy"
+                    class="icon icon-card"
+                >
+                <img
+                    src="assets/icons/skills/icons8-css.svg"
+                    alt="CSS3"
+                    loading="lazy"
+                    class="icon icon-card"
+                >
+                <img
+                    src="assets/icons/skills/icons8-javascript.svg"
+                    alt="JavaScript"
+                    loading="lazy"
+                    class="icon icon-card"
+                >
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img
+                    src="assets/icons/skills/php-programming-language-icon.svg"
+                    alt="PHP"
+                    loading="lazy"
+                    class="icon icon-card"
+                >
+                <img
+                    src="assets/icons/skills/laravel.svg"
+                    alt="Laravel"
+                    loading="lazy"
+                    class="icon icon-card"
+                >
+                <img
+                    src="assets/icons/skills/icons8-java.svg"
+                    alt="Java"
+                    loading="lazy"
+                    class="icon icon-card"
+                >
+            </div>
+
+            <div class="third-set animate__animated animate__pulse">
+                <img
+                    src="assets/icons/skills/icons8-c.svg"
+                    alt="C++"
+                    loading="lazy"
+                    class="icon icon-card"
+                >
+                <img
+                    src="assets/icons/skills/icons8-mysql.svg"
+                    alt="MySQL"
+                    loading="lazy"
+                    class="icon icon-card"
+                >
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Personal Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img
+                    src="assets/images/my-diary-mobile-app.jpg"
+                    alt="my-diary-mobile-app"
+                    loading="lazy"
+                    class="project-pic"
+                    id="mydiaryimage"
+                >
+                <h3 class="project-title">My Diary Mobile App</h3>
+                <ul class="project-details">
+                    <li>Developed a personal diary application focusing on android mobile application.</li>
+                    <li>Developed by using Android Studio (Java) with MySQL as the database along with REST API implementation.</li>
+                </ul>
+                <!-- <a href="#" target="_blank" class="project-link">Check it out</a> -->
+            </div>
+            <div class="project-container project-card">
+                <img
+                    src="assets/images/online-home-appliances-repair-system.jpg"
+                    alt="online-home-appliances-repair-system"
+                    loading="lazy"
+                    class="project-pic"
+                >
+                <h3 class="project-title">Online Home Appliances Repair System</h3>
+                <ul class="project-details">
+                    <li>Developed a web application for home appliances repair request system.</li>
+                    <li>Developed by using HTML, CSS, JavaScript, PHP with MySQL as the database.</li>
+                </ul>
+                <!-- <a href="#" target="_blank" class="project-link">Check it out</a> -->
+            </div>
+            <div class="project-container project-card">
+                <img
+                    src="assets/images/poster-printing-service-system.jpg"
+                    alt="poster-printing-service-system"
+                    loading="lazy"
+                    class="project-pic"
+                >
+                <h3 class="project-title">Poster Printing Service System</h3>
+                <ul class="project-details" id="posterprintinglist">
+                    <li>Developed a web application to handle poster printing service system.</li>
+                    <li>Developed by using HTML, CSS, JavaScript, PHP with MySQL as the database.</li>
+                </ul>
+                <!-- <a href="#" target="_blank" class="project-link">Check it out</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact"> 
+        <h2>Any enquiries? Contact me!</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="post">
+                    <input type="hidden" name="access_key" value="717dfbb6-f734-4c9e-9a67-ac03a041f67f">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            class="input-field"
+                            required
+                        >
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            class="input-field"
+                            required
+                        >
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            cols="60"
+                            rows="10"
+                            placeholder="Enter your message"
+                            name="message"
+                            class="input-field"
+                            required
+                        ></textarea>
+                    </div>
+                    <input
+                        type="submit"
+                        value="Submit"
+                        id="submit-btn"
+                        class="submit-btn"
+                    >
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social accounts (on the right of the website) -->
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/akmal-zulkepli-601104225" target="_blank">
+            <img
+                src="assets/icons/socials/icons8-linkedin.svg"
+                alt="LinkedIn"
+                loading="lazy"
+                class="socicon"
+            >
+        </a>
+        <a href="https://github.com/zahin100" target="_blank">
+            <img
+                src="assets/icons/socials/icons8-github.svg"
+                alt="GitHub"
+                loading="lazy"
+                class="socicon"
+            >
+        </a>
+    </div>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up">
+        <img
+            src="assets/icons/socials/angle-circle-arrow-up-icon.svg"
+            class="socicon up-arrow"
+            alt="scroll-up"
+        >
+    </i>
+
+    <!-- Footer -->
+    <footer>
+        <p class="copy">
+            Built with &#x2764;&#xfe0f; by Akmal Zulkepli
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+     <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+</body>
+</html>
