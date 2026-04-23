@@ -165,10 +165,6 @@ nav ul li {
     height: 54%;
 } 
 
-#posterprintinglist {
-    margin-bottom: 2.5rem;
-}
-
 .projects-container {
     display: flex;
     align-items: center;
@@ -195,10 +191,8 @@ nav ul li {
 }
 
 .project-details {
-    text-align: left;
-    margin-left: 1.2rem;
-    list-style-type: disc;
-    margin-bottom: var(--bottom-margin);
+    margin-bottom: 2rem;
+
 }
 
 .project-card {
@@ -207,7 +201,24 @@ nav ul li {
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
     margin: 10px;
-} 
+}
+
+.tech-tag-container{
+    margin-top: 0.6rem;
+}
+
+.tech-tag {
+    background-color: #4756df;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+#poster-tech-tag-container{
+    margin-bottom: 2rem;
+}
 
 .contact {
     scroll-margin-top: 100px;
